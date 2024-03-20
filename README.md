@@ -1,6 +1,6 @@
 # Python code for rubber ducks floating down a canal being affected by the current and wind
 
-This is a simple model of the real world using Random Walks. A rubber duck has been considered floating down a canal being affected by the current and wind. 
+This is a simple model of the real world using **Random Walks**. A rubber duck has been considered floating down a canal being affected by the current and wind. 
 
 Fisrt class is current whose initialization method gives an initial velocity and direction which will default to 0 degrees (due north.) A method called get_vector() returns the current velocity and direction. Each time get_vector() is called the velocity will randomly change in the range of 0.5 to 2.0 and the direction will change 5 degrees. (The velocity will be feet per iteration.) 
 
